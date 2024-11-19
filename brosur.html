@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>IANNNUB - Platform Joki Murah</title>
+    <title>JAVAPEDIA - Platform Joki Murah</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/logoku23-removebg-preview.png" rel="icon">
+    <link href="img/logo/javapedia.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/cust.css" rel="stylesheet">
 </head>
 
 <body>
@@ -48,9 +49,9 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
-                        <img class="img-fluid" src="img/logoku.png" alt="Icon" style="width: 30px; height: 30px;">
+                        <img class="img-fluid" src="img/logo/javapedia.png" alt="Icon" style="width: 30px; height: 30px;">
                     </div>
-                    <h1 class="m-0 text-primary">iannnub</h1>
+                    <h1 class="m-0 text-primary">JAVAPEDIA</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -256,6 +257,24 @@
 <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 </div>
 
+<!-- Live Chat Widget -->  
+<div class="chat-widget" id="chatWidget">  
+    <div class="chat-header" id="chatHeader">  
+        <span>Live Chat</span>  
+        <button id="closeChat" class="close-chat">&times;</button>  
+    </div>  
+    <div class="chat-content" id="chatContent">  
+        <div class="chat-messages" id="chatMessages"></div>  
+        <div class="chat-input">  
+            <input type="text" id="chatInput" placeholder="Type a message..." />  
+            <button id="sendMessage">Send</button>  
+        </div>  
+    </div>  
+</div>  
+<button id="openChat" class="open-chat">Chat</button>  
+
+</div>
+
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -266,6 +285,7 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+<script src="js/cus.js"></script>
 </body>
 
 </html>
